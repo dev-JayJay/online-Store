@@ -9,7 +9,7 @@ import Order from './models/orderModel.js'
 import connectDB from './config/db.js'
 
 dotenv.config()
-
+// connection successfull
 connectDB()
 
 const importData = async () => {
